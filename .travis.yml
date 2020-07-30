@@ -1,3 +1,4 @@
 language: java
 
-script: cd profile-service && mvn package
+script: cd profile-service && mvn package && cd
+  ../course-service && mvn package
